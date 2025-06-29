@@ -1,0 +1,10 @@
+div.card-title-primary.v-card-title,
+.v-card-title.card-title-primary,
+thead {
+    color:white !important; 
+    background-color: rgb(var(--v-theme-primary)) !important
+}
+.v-data-table-header__content:hover,
+.v-data-table__td.v-data-table-column--align-start.v-data-table__th--sortable.v-data-table__th:hover{
+    color: white !important;
+}
