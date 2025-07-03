@@ -1,6 +1,9 @@
 .DS_Store
 node_modules
 /dist
+/build
+**/bin/
+**/obj/
 
 
 # local env files
@@ -14,8 +17,11 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Editor directories and files
+*~
+*.tmp
 .idea
 .vscode
+.vs
 *.suo
 *.ntvs*
 *.njsproj
